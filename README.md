@@ -5,7 +5,9 @@ Bolt Slack bot to facilitate status meetings
 ![image](https://user-images.githubusercontent.com/15017748/111555849-7d9f8980-8746-11eb-82c5-b5f7ae43e5c7.png)
 
 (
-## Setup - https://api.slack.com/apps/
+## Setup 
+(https://api.slack.com/apps/)
+
 ### OAuth Scopes
 * app_mentions:read
 * channels:history
