@@ -96,6 +96,7 @@ app.action(/.*_click/, async ({ action, ack, respond }) => {
 
   button_action_id = 'randomize';
 
+  // there must still be active users
   if (activeUsers.length) {
     header = action.value;
     button_text = 'Random';
@@ -280,6 +281,8 @@ async function getRandomUser() {
     }
   });
 
+  console.log(activeUsers);
+
   if (activeUsers.length) {
     const randUser = activeUsers[Math.floor(Math.random() * activeUsers.length)];
 
@@ -298,12 +301,11 @@ async function getRandomUser() {
     const buttons = buildParticipantList(users);
     return buttons;
   } else {
-    // we are done - is there a team slogan
-    if (channelName == 'scrum') {
-      button_action_id = 'close';
-      button_text = 'Close';
-      activeUser = finalHeader();
-    }
+    // we are done
+    button_action_id = 'close';
+    button_text = 'Close';
+    activeUser = finalHeader();
+
     const buttons = buildParticipantList(users);
     return buttons;
   }
