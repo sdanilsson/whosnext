@@ -29,7 +29,7 @@ First click green, second click red, third click default.
 * Green = User has reported
 * Red = User not present
 
-The header shows wich user was selected last.
+The header shows which user was selected last.
 The "Random" button can be used to pick a random user from the participant list.
 After all buttons have been set to green or red the heading changes to a predefined text depending on channel name, and the "Random" button changes to "Close". "Close" will delete the original message.
 
