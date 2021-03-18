@@ -22,8 +22,8 @@ https://.../slack/events
 https://.../slack/events
 
 ### Environment Vars:
-export SLACK_TOKEN=xoxb-xxxxxxxxxx-xxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx
-export SLACK_SIGNIN_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+* export SLACK_TOKEN=xoxb-xxxxxxxxxx-xxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx
+* export SLACK_SIGNIN_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## How to Use
 start the bot: /scrum
