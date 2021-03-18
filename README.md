@@ -25,9 +25,9 @@ start the bot: /scrum
 
 The app gathers all users in the channel and presents them as buttons that can be clicked.
 First click green, second click red, third click default.
-Default = User has not reported
-Green = User has reported
-Red = User not present
+* Default = User has not reported
+* Green = User has reported
+* Red = User not present
 
 The header shows wich user was selected last.
 The "Random" button can be used to pick a random user from the participant list.
