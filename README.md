@@ -12,7 +12,6 @@ Bolt Slack bot to facilitate status meetings
 * channels:read
 * chat:write
 * commands
-* incoming-webhoob (not used at the moment)
 * users:read
 
 ### Event Subscrptions: 
@@ -27,9 +26,9 @@ start the bot: /scrum
 
 The app gathers all users in the channel and presents them as buttons that can be clicked.
 First click green, second click red, third click default.
-* Default = User has not reported
-* Green = User has reported
-* Red = User not present
+* Default = Attendee has not reported
+* Green = Attendee has reported
+* Red = Attendee not present
 
 The header shows which user was selected last.
 The "Random" button can be used to pick a random user from the participant list.
